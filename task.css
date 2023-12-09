@@ -1,0 +1,237 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+#bg_img div img{
+  
+    height: 80vh;
+}
+#secimg img{
+    width: 400px;
+    height: 40vh;
+    border-radius: 100px;
+}
+#thirdimg img{
+    /* width: 300px; */
+    height: 40vh;
+    border-radius: 180px;
+    padding: 20px;
+}
+#thirdimg div figcaption{
+    
+    padding: 20px;
+}
+.counter_bg{
+    background-image: url(Images/good.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    text-align: center;
+    /* padding-top: 90px; */
+    }
+
+#fifthimg{
+    margin-left:80px ;
+    width: 200px;
+    height: 45vh;
+}
+.image-overlay{
+
+    z-index: 10;
+    
+}    
+.person_img{
+ position: absolute;
+ top: 390%;
+ left: 45%;
+ height: 25vh;
+    /* padding-left: 150px;
+    margin-left: 450px; */
+  }
+  
+.textof_person{
+   /* padding-left: 20px; */
+   /* margin-top: 30px; */
+   font-weight: bold;
+   font-size: large;
+   text-align: center;
+   transform: translateY(-170%);
+}
+#people{
+   margin: 20px;
+    height: 80vh;
+ }
+#title{
+    padding: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: grey !important;
+}
+#title form{
+    margin: 20px;
+    padding-top: 50px;
+    margin-left: 300px;
+}
+#title form input{
+ /* transform: translateX(30%); */
+    
+    width: 50%;
+    z-index: 1;
+}
+/* #title form input button{
+ transform: translateX(30%);
+    width: 50%;
+} */
+#foot{
+    background-color: white;
+}
+#foot:hover{
+    background-color: lightyellow;
+}
+
+
+
+#bg_main{
+    width: 100%;
+    height: 80vh;
+    opacity: 0.4;
+    background-image: url("Images/transparent_bg.jpg");
+    background-size: cover;
+    /* background-repeat: no-repeat;
+    animation-direction: alternate-reverse;
+    animation-name: transparent_bg;
+    animation-duration: 5s;
+    animation-iteration-count: infinite; */
+    /* filter: brightness(10px); */
+  
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 300px) and (max-width:760px){
+    #bg_img div img{
+        height: 30vh;
+    }
+    .counter_bg{
+        height: 140vh;
+    }
+    #bg_img div img{
+        height: 30vh;
+    }
+    .person_img{
+        position: absolute;
+        top: 590%;
+        left: 35%;
+        height: 17vh;
+           /* padding-left: 150px;
+           margin-left: 450px; */
+         }
+         #secimg img{
+         width: 250px;
+         padding-right: 30px;
+         height: 35vh;
+        }
+        #fifthimg{
+            height: 33vh;
+        }
+        .textof_person{
+            /* padding-left: 20px; */
+            /* margin-top: 30px; */
+
+            font-size: smaller;
+            transform: translateY(-190%);
+         }
+         #people{
+            height: 80vh;
+         }
+         #title form{
+         display: none;
+        }
+        #title form input{
+         /* transform: translateX(30%); */
+            
+           display: none;
+        }
+        #but{
+         /* transform: translateX(30%); */
+            
+           display: none;
+        }
+}
+
+
+@media screen and (min-width: 768px) and (max-width:950px){
+   
+        #thirdimg img{
+            width: 250px;
+            height: 30vh;
+            border-radius: 180px;
+            padding: 20px;
+        }
+        #secimg img{
+            width: 300px;
+            height: 40vh;
+            border-radius: 100px;
+          
+        }
+        #bg_img div img{
+            height: 40vh;
+        }
+        .counter_bg{
+           height: 50vh;
+            }
+        .person_img{
+            position: absolute;
+            top: 237%;
+            left: 38%;
+            height: 17vh;
+            }
+            .textof_person{
+                font-size: medium;
+                transform: translateY(-250%);
+             }
+             
+            #secimg img{
+                
+                height: 20vh;
+            
+            }
+            #secimg div{
+              
+                height: 25vh;
+                
+            }
+            #thirdimg img{
+              
+               height: 20vh;
+            }
+            #thirdimg div figcaption{
+                
+             height: 20vh;
+            }
+            #people{
+                height: 80vh;
+             }
+             #bg_main{
+                height: 60vh;
+              
+            }
+            #title form{
+                display: none;
+               }
+               #title form input{
+                /* transform: translateX(30%); */
+                   
+                  display: none;
+               }
+               #but {
+                /* transform: translateX(30%); */
+                   
+                  display: none;
+               }
+}

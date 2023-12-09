@@ -1,0 +1,226 @@
+body{
+    margin: 0%;
+}
+.imgabout{
+    width: 50%;
+    height: 200vh;
+}
+.but:hover{
+ background-color: blueviolet;
+ color: black;
+}
+header{
+    background-color: white;
+}
+.fake{
+    width: 100%;
+    height: 100px;
+}
+.image{
+    width: 100%;
+    height: 80vh;
+    margin: auto;
+}
+
+nav ul li{
+    background-color: red;
+    margin-right: 10px;
+    width: 100px;
+    text-align: center;
+ }
+ nav ul li:last-child{
+     margin-right: 40px;
+ }
+ .nav-link{
+    color: white !important;
+ }
+ 
+ 
+.col-xl-4 .card{
+    overflow: hidden;
+}
+.card img{
+    transition-duration: 0.5s;
+}
+.card img:hover{
+    transform: scaleX(1.1);
+}
+/* .toprakhsha{
+    padding-left: 10px;
+    text-align: center;
+} */
+.add{
+    background-color: rgb(30, 97, 102);
+    color: white;
+}
+.add:hover{
+    background-color: black;
+    color: black;
+}
+ 
+.form-label{
+    /* background-color: yellowgreen  !important; */
+    color: black !important;
+}
+.insta_bg{
+color: white ;
+}
+.insta_bg:hover{
+  color: orangered;
+}
+
+.fb_bg{
+color: white ;
+}
+.fb_bg:hover{
+  color: rgb(38, 38, 212);
+}
+
+.twit_bg{
+color: white ;
+}
+.twit_bg:hover{
+  color: rgb(63, 124, 161);
+}
+
+.category_hov{
+    color:black;
+}
+.category_hov:hover{
+    color: red;
+}
+.rupay{
+    transform: translateX(-10%,-10%);
+}
+.hearticon{
+   font-size: larger;
+}
+.hearticon:hover{
+    color: red;
+}
+.Weight button{
+  background-color: white;
+  color: black;
+}
+.Weight button :hover{
+    color: skyblue !important;
+}
+.emailtext{
+    width: 75%;
+    height: 7vh;
+    padding: 3px;
+}
+.submbit{
+    width: 75%;
+    height: 7vh;
+    padding: 3px;
+}
+
+.submbit:hover{
+   background-color: red;
+   color: black;
+}
+.card-img{
+    width: 20%;
+    height: 40vh;
+    margin: 10px;
+  }
+.mainto{
+    /* height: 70vh; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    /* padding-right: 20px; */
+    /* margin: 10px; */
+    /* padding-top: 20px; */
+    /* background-color: black; */
+    /* color: white; */
+}
+.buttonto{
+    /* height: 70vh; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    /* padding-right: 20px; */
+    /* margin: 10px; */
+    /* padding-top: 20px; */
+
+}
+.buttt{
+    width: 180px;
+    height: 50px;
+    padding-bottom: 10px;
+    background-image: url(cat.jpg);
+    color: white;
+}
+.counter_bg{
+background-image: url(instagram\ bg.jpg);
+background-size: cover;
+width: 100%;
+height: 50vh;
+text-align: center;
+/* padding-top: 90px; */
+}
+.iconsize{
+    width: 30px;
+}
+.hr{
+    width: 100%;
+    height: 2vh;
+    background-color: grey;
+}
+.que{
+    background-color:skyblue;
+    padding: 12px;
+}
+.iconque{
+    padding-left: 760px;
+}
+.iconque1{
+    padding-left: 547px;
+}
+.iconque2{
+    padding-left: 605px;
+}
+.iconque3{
+    padding-left: 695px;
+}
+.iconque4{
+    padding-left: 660px;
+}
+.iconque5{
+    padding-left: 680px;
+}
+.iconque6{
+    padding-left: 720px;
+}
+.below_slide{
+    padding: 15px;
+    text-align: justify;
+}
+
+ @media(max-width:996px){
+     nav ul li{
+         background-color: red;
+         width: 100%;
+         text-align: center;
+         margin: auto;
+         margin-bottom: 10px;
+      }
+      
+      nav ul li:last-child{
+         margin: auto;
+     }
+    
+ }
+ @media(max-width:760px){
+    .image{
+        width: 100%;
+        height: 50vh;
+    }
+
+    
+    
+ }

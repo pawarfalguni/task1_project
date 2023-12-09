@@ -1,0 +1,30 @@
+.card-img{
+    width: 20%;
+    height: 40vh;
+  }
+  .main{
+    background-image: url("blue.webp");
+    color:white ;
+  }
+  .onlyhov{
+    text-align: center;
+  }
+  .onlyhov:hover{
+   /* background-color: blue; */
+   color: blue ;
+  }
+  .mainto{
+    /* height: 70vh; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    /* padding-right: 20px; */
+    /* margin: 10px; */
+    /* padding-top: 20px; */
+    background-color: black;
+    color: white;
+}
+.heading{
+  padding-top: 0%;
+}

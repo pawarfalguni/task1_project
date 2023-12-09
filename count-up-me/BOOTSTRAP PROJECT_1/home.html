@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+  integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+  <header class="container-fluid fixed-top">
+    <nav class="navbar navbar-expand-lg ">
+
+        <a href="#" class="navbar-brand col-4">
+            <h1 class="p-4">🎀 𝕮𝖆𝖐𝖊𝖟𝖎𝖑𝖑𝖆 𝖇𝖎𝖙𝖊</h1>
+        </a>
+
+        
+        <button class="navbar-toggler"  data-bs-target="#mynav" data-bs-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end col-6 p-2 " id="mynav">
+
+            <ul class="navbar-nav mx-1  ">
+                <li class="nav-item">
+                 <a href="" class="nav-link">Home</a>  
+                </li>
+                
+                <li class="nav-item ">
+                 <a href="" class="nav-link">About us</a>  
+                </li>
+                
+                <li class="nav-item">
+                 <a href="" class="nav-link">Category</a>  
+                </li>
+                
+                <li class="nav-item">
+                 <a href="" class="nav-link">Flavors</a>  
+                </li>
+                <li class="nav-item">
+                 <a href="" class="nav-link">Kids Cake</a>  
+                </li>
+               
+                <li class="nav-item">
+                 <a href="" class="nav-link">Birthday</a>  
+                </li>
+                <li class="nav-item">
+                 <a href="" class="nav-link">Occasion</a>  
+                </li>
+              
+            
+            </ul>
+        </div>
+    </nav>
+</header>
+<div class="fake">
+
+</div>
+
+ <!-- CAROUSEL image slideing -->
+ <section class="container-fluid">
+  <div class="carousel slide" id="myslide" data-bs-ride="carousel">
+
+    <!-- CAROUSEL INDICATORS -->
+    <div class="carousel-indicators">
+        <button data-bs-target="#myslide" class="active" data-bs-slide-to="0"></button>
+        <button data-bs-target="#myslide" data-bs-slide-to="1"></button>
+        <button data-bs-target="#myslide" data-bs-slide-to="2"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="image" src="chesse.jpg" class="d-lock w-100" alt="" />
+        <div class="carousel-caption text-start">
+
+          <!-- MODAL POPUP -->
+      <section>
+            <!-- MODAL POPUP -->
+            <div class="modal" id="register">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title text-dark">Register Here</h5>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+      
+                  <div class="modal-body">
+                   <!-- FORM bootstrap -->
+      
+                  <div class=" col-xl-12 py-3 border p-4 ">
+                    <form action="" >
+                      <!-- <h3 class="text-center pb-3 bg-info ">Register Here</h3> -->
+              
+                      <div class="form-floating mb-4">
+                        <input type="text" id="" name="" class="form-control" placeholder="Name" required>
+                        <label for="" class="form-label">Name</label>
+                        <div class="invalid-feedback">Name is Mandatory</div>
+                        <div class="valid-feedback">Perfect</div>
+                      </div>
+                      <div class="form-floating mb-4">
+                        <input type="text" id="" name="" class="form-control" placeholder="Email" required>
+                        <label for=""class="form-label">Email</label>
+                      </div>
+                      <div class="input-group mb-4">
+                        <select class="input-group-text" name="" id="">
+                          <option value="">+91</option>
+                          <option value="">+91</option>
+                          <option value="">+91</option>
+                          <option value="">+91</option>
+                          <option value="">+91</option>
+                          <option value="">+91</option>
+                        </select>
+              
+                        <input type="tel" id="" name="" class="form-control" required pattern="[0-9]{10}" placeholder="Mobile" required>
+                        <div class="invalid-feedback">Enter 10 Digit No.</div>
+                        
+              
+                      </div>
+                      <div class="form-floating mb-4">
+                        <input type="text" id="" name="" class="form-control" placeholder="Password" required>
+                        <label for=""class="form-label">Password</label>
+                      </div>
+                      <!-- form button -->
+                      <input type="submit" class="form-control bg-danger" id="" name="">
+              
+                    </form>
+                  </div>
+      
+                </div>
+                </div>
+              </div>
+            </div>
+      </section>
+
+
+
+
+        <!-- MODAL POPUP -->
+        <section>
+      <div class="modal" id="login">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title text-dark">Log In</h5>
+              <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body">
+            <!-- FORM bootstrap -->
+
+          <div class="  col-xl-12  py-3 border p-2 ">
+            <form action="" >
+              <!-- <h3 class="text-center pb-3 bg-info ">Register Here</h3> -->
+      
+            
+              <div class="form-floating mb-4">
+                <input type="text" id="" name="" class="form-control" placeholder="Email" required>
+                <label for="" class="form-label" >Email</label>
+              </div>
+            
+              <div class="form-floating mb-4">
+                <input type="text" id="" name="" class="form-control" placeholder="Password" required>
+                <label for="" class="form-label" >Password</label>
+              </div>
+              <!-- form button -->
+              <input type="submit" class="form-control bg-danger" id="" name="">
+      
+            </form>
+          </div>
+
+          </div>
+        
+          </div>
+        </div>
+      </div>
+
+
+ 
+</section>
+
+          <div class="py-5,toprakhsha">
+            <h1 class="pt-3">🛴R𝒶ksh𝒶多𝒶ndh𝕒n</h1>
+            <p class="text-light px-5 mx-5"> &nbsp;&nbsp;&nbsp;&nbsp; A Knot of Love💖<br> <span>A Promise of Protection !</span></p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="badge bg-info rounded-pill p-3 mx-5 px-5 ">
+               Special Offers
+            </span>
+          </div>
+          <div class="px-5 text-center">
+            <button data-bs-toggle="modal" data-bs-target="#register" class=" text-info btn bg-transparent   p-2 mx-2 ">Register</button>
+            <button data-bs-toggle="modal" data-bs-target="#login"class=" text-info btn bg-transparent p-2 ">Log In</button>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img
+          class="image"
+          src="chocolate-cake-realistic-3d-product-showcase-food-photography_111797-2032.jpg"
+          class="d-lock w-100"
+          alt=""
+        />
+        <div class="carousel-caption text-end my-5 text-center py-5">
+          <h1>𝔏𝔦𝔣𝔢 𝔦𝔰 𝔰𝔥𝔬𝔯𝔱, 𝔰𝔬 𝔪𝔞𝔨𝔢 𝔦𝔱 𝔰𝔴𝔢𝔢𝔱🎀.</h1>
+        </div>
+
+      </div>
+      <div class="carousel-item">
+        <img
+          class="image"
+          src="indulgent-homemade-dessert-plate-chocolate-raspberry-blueberry-cheesecake-generative-ai_188544-40915.jpg"
+          class="d-lock w-100"
+          alt=""
+        />
+        <div class="carousel-caption text-start my-5">
+          <h1 class="text-center my-5" >🍡𝕭𝖗𝖎𝖓𝖌 𝖔𝖓 𝖙𝖍𝖊 𝖈𝖆𝖐𝖊!</h1>
+        </div>
+      </div>
+
+      <!-- Prev & Next button -->
+      <button class="carousel-control-prev" data-bs-target="#myslide" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" data-bs-target="#myslide" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+
+    </div>
+  </div>
+</section>
+
+<div class="main">
+<footer class="text-white text-center p-5 pt-3 ">
+   
+
+    &copy;__falgunipawar477@gmail.com <br>
+    <ion-icon class="text-white m-2 bg-primary rounded-pill" style="font-size: 25px;" name="logo-facebook"></ion-icon>
+    <ion-icon class="text-white m-2 bg-success rounded-pill" style="font-size: 25px;" name="logo-whatsapp"></ion-icon>
+    <ion-icon class="text-white m-2 bg-info rounded-pill"  style="font-size: 25px;" name="logo-twitter"></ion-icon>
+    <ion-icon class="text-white m-2 bg-danger rounded-pill"  style="font-size: 25px;" name="logo-instagram"></ion-icon>
+
+    
+  </footer>
+</div>            
+
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+  
+</body>
+</html>
