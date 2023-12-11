@@ -13,11 +13,12 @@
     border-radius: 100px;
 }
 #thirdimg img{
-    /* width: 300px; */
+    width: 300px;
     height: 40vh;
     border-radius: 180px;
     padding: 20px;
 }
+
 #thirdimg div figcaption{
     
     padding: 20px;
